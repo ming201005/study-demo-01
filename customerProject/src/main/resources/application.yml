@@ -1,0 +1,12 @@
+server:
+  port: 8099
+spring:
+  datasource:
+    #driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3309/customer_db
+    username: root
+    password: 888888
+mybatis-plus:
+  #信息输出设置
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
